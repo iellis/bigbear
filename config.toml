@@ -103,7 +103,7 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-laptop"
                 title = "Technical Due Dilligence"
-                description = "Are you looking for an objective review and analysis of your code? I've got you covered. I will provide you with strategic insight intoprioritizing development tasks to yield the biggest results for your business. After speaking with you and understanding your needs, I’ll immerse myself in your code. Then, I'll give you a report that everyone on your team can understand, from engineers to management. It's a valuable tool for creating budgets and product roadmaps.<br><br><i>Ike has an uncanny ability to quickly and efficiently diagnose a project&#39;s requirements and any questions that should be raised with the client.<br><br>-Hugh Welsh, PocketCake"
+                description = "Are you looking for an objective review and analysis of your code? I've got you covered. I will provide you with strategic insight intoprioritizing development tasks to yield the biggest results for your business. After speaking with you and understanding your needs, I’ll immerse myself in your code. Then, I'll give you a report that everyone on your team can understand, from engineers to management. It's a valuable tool for creating budgets and product roadmaps.<br><br><i>Ike has an uncanny ability to quickly and efficiently diagnose a project's requirements and any questions that should be raised with the client.<br><br>-Hugh Welsh, PocketCake"
 
             [[params.services.row.list]]
                 icon = "fa-lock"
