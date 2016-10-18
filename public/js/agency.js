@@ -24,3 +24,32 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// banner text change
+$( document ).ready(function() {
+
+
+  var counter = 0;  
+  setInterval(change, 4000);
+  divs = $('.intro-heading')
+  current = divs[0]
+  $(current).show(0)
+
+  function change() {
+   
+    divs = $('.intro-heading')
+    current = divs[counter]   
+
+    $(current).fadeOut(200, function() {
+      nextCounter = counter + 1;
+      if (nextCounter >= divs.length) { nextCounter = 0; }
+      next = divs[nextCounter]
+      $(next).fadeIn(200)
+    });
+
+    counter++; 
+    if(counter >= divs.length) { counter = 0; }
+   
+  }
+});
+              
