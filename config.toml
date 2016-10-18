@@ -70,7 +70,21 @@ googleAnalytics = ""
         title = "Welcome To Big Bear Industries!"
         subtitle = "Let's build great software together."        
         buttonText = "Tell me more"
-        billboardText = ["Let's build great software together.", "Welcome", "Hi", "Sup dude"]
+        billboardText =["Let's build great software together.", "I love working with existing teams. (Yes, really.)",
+                        "I love fixing bugs.<br>(Yes, really.)",
+                        "I love improving existing code.<br>(Yes, really.)",                        
+                        "I love helping teams scale.<br>(Yes, really.)",
+                        "I love improving technical documentation.<br>(Yes, really.)",
+                        "I love the beauty of legacy code.<br>(Yes, really.)",
+                        "I love responding to your changing needs.<br>(Yes, really.)",
+                        #"I love getting architectures organized.<br>(Yes, really.)",
+                        "I love making prototypes shine.<br>(Yes, really.)",
+                        #"I love communicating as much as I love code.<br>(Yes, really.)",
+                        #"I love finding ways for businesses to be more productive.<br>(Yes, really.)",
+                        "I love improving test suites.<br>(Yes, really.)",
+                        "I love explaining code to non-coders.<br>(Yes, really.)",
+                        "I love creating custom solutions.<br>(Yes, really.)"
+                        ]
 
 
     # Services section
