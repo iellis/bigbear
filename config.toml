@@ -17,7 +17,7 @@ googleAnalytics = ""
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
     name = "Big Bear Industries"
-    description = "I can help you build, fix, repair, or rescue your apps, games, websites, and whatever else you've got!"
+    description = "I can help develop apps, games, websites, and whatever else you've got! Need an interim CTO, help with due diligence, or just someone to help you figure out what it is you need? Contact me today."
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -39,7 +39,7 @@ googleAnalytics = ""
 
     # Navigation
     [params.navigation]
-        brand = "The Agency"
+        brand = "Big Bear Industries"
         services = "Services"
         portfolio = "Portfolio"
         about = "About"
@@ -57,163 +57,168 @@ googleAnalytics = ""
     #    weight = 10
 
     # postpended links
-    [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
-        weight = 10
+    #[[menu.postpend]]
+    #    url = "http://gohugo.io"
+    #    name = "External link"
+    #    weight = 10
 
 
     # Hero section
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Welcome To Our Studio!"
-        subtitle = "It's nice to meet you"
+        title = "Welcome To Big Bear Industries!"
+        subtitle = "Let's build great software together."        
         buttonText = "Tell me more"
+        billboardText = ["Let's build great software together.", "Welcome", "Hi", "Sup dude"]
 
 
     # Services section
     [params.services]
         enable = true
         title = "Services"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
+        subtitle = "If you need to build software, I'd love to talk to you. I take on projects of any size and complexity, in any language, on any platform."
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "iOS Development"
+                description = "Need an app? Need to upgrade an app you already have? I've built apps of all shapes and sizes for the iPhone and iPad. My specialty is working with designers to create beautiful apps that are a pleasure to use.<br><br><i>Ike is the cream of the crop for mobile developers. We relied on him for years to own LollyWollyDoodle's mobile presence.<br><br>-Tohm Sansani, Product Manager at Audible</i>"
 
             [[params.services.row.list]]
                 icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Technical Due Dilligence"
+                description = "Are you looking for an objective review and analysis of your code? I've got you covered. I will provide you with strategic insight intoprioritizing development tasks to yield the biggest results for your business. After speaking with you and understanding your needs, I’ll immerse myself in your code. Then, I'll give you a report that everyone on your team can understand, from engineers to management. It's a valuable tool for creating budgets and product roadmaps.<br><br><i>Ike has an uncanny ability to quickly and efficiently diagnose a project&#39;s requirements and any questions that should be raised with the client.<br><br>-Hugh Welsh, PocketCake"
 
             [[params.services.row.list]]
                 icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Interim CTO"
+                description = "Whether you haven’t found your ideal CTO or your CTO is out on leave, I can help you bridge the gap. I perform all the functions of a CTO (full- or part-time). I can help you make technical and strategic decisions, lead your technical teams, or flesh out your investor pitch. I can even help you plan a path to finding your very own perfect CTO.<br><br><i>Ike's deep knowledge and experience was a major asset and played an integral part in our strategic and technical planning. His ability to think through risk and technical challenges and their relationship to development strategy and cost structures was incredibly valuable to our overall process. Ike's direction helped us crystallize our idea and solution and form a more cogent path to move forward with confidence.</i><br><br>Curtis Forbes<br>Founder/CEO of LiveShed, Inc."
+
+            [[params.services.row.list]]
+                icon = "fa-lock"
+                title = "Help! We're stuck!"
+                description = "Do you need an experienced software developer to dig deep and really grok your code? Did your simulation developer disappear in the night? Do you have a crash that nobody can figure out? Look no further. Purchase time in hourly blocks or fund a retainer for ongoing help. Rates depend on the complexity and urgency of the work."
 
     # Portfolio section
+    #400x289
+    #600x450
     [params.portfolio]
         enable = true
         # All projects defined in their own files. You can find example projects
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
-        title = "Portfolio"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
+        title = "Clients"
+        subtitle = "Check out a few of the projects I've worked on."
 
         [params.portfolio.modal]
-            client = "Client"
+            client = "Company"
             date = "Date"
-            category = "Category"
-            buttonText = "Close project"
+            category = "Platform"
+            buttonText = "Close"
 
+
+
+    # Client section
+    [params.clients_list]
+        enable = false
+
+        # All the clients' logos are stored under 'static/img/logos'.
+        # Replace them with your clients's logos.
+        [[params.clients]]
+            logo = "sparkypants.jpg"
+            link = "#"
+
+        [[params.clients]]
+            logo = "skytrak.jpg"
+            link = "#"
+
+        [[params.clients]]
+            logo = "formfast.jpg"
+            link = "#"
+
+        [[params.clients]]
+            logo = "lwd.jpg"
+            link = "#"
+
+        [[params.clients]]
+            logo = "pocketcake.jpg"
+            link = "#"
+
+        [[params.clients]]
+            logo = "command-app.jpg"
+            link = "#"
 
     # About section
     [params.about]
         enable = true
         title = "About"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
-        endpoint = "Be part<br>of our<br>story!"
+        subtitle = "My name is Ike and I'm Big Bear Industries."
+        endpoint = "???"
 
         # The events will be listed from the top to the bottom.
         # All images are stored under 'static/img/about'.
         # Replace them with your own.
         [[params.about.events]]
-            img = "1.jpg"
-            date = "2009-2011"
-            title = "Our Humble Beginnings"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            img = "headshot.jpg"
+            date = "2013"
+            title = "Coding in the basement..."
+            description = "Building off of a dozen years in the game industry, I realized I could build a business out of all those people asking if I knew how to build an app. A few months after taking on my first client, I quit my day job and haven't looked back."
 
         [[params.about.events]]
             img = "2.jpg"
-            date = "March 2011"
-            title = "An Agency is Born"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-        [[params.about.events]]
-            img = "3.jpg"
-            date = "December 2012"
-            title = "Our Humble Beginnings"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-        [[params.about.events]]
-            img = "4.jpg"
-            date = "July 2014"
-            title = "Phase Two Expansion"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "2016"
+            title = "Big Bear Industries"
+            description = "Numerous projects later, I've helped an ever-growing number of people plan, execute, and upgrade their technology. I incorporated Big Bear Industries to help show people what I can help them accomplish."
 
 
     # Team section
     [params.team]
-        enable = true
-        title = "Our amazing team"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+        enable = false
+    #    title = "Our amazing team"
+    #    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    #    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non #quis ad perspiciatis, totam corporis ea, alias ut unde."
 
         # All team member's pictures are stored under 'static/img/team'.
         # Replace them with your own too.
-        [[params.team.members]]
-            img = "1.jpg"
-            name = "Kay Garland"
-            position = "Lead Designer"
-            social = [
-                ["fa-twitter", "#"],
-                ["fa-facebook", "#"],
-                ["fa-linkedin", "#"]
-            ]
+        #[[params.team.members]]
+        #    img = "1.jpg"
+        #    name = "Kay Garland"
+        #    position = "Lead Designer"
+        #    social = [
+        #        ["fa-twitter", "#"],
+        #        ["fa-facebook", "#"],
+        #        ["fa-linkedin", "#"]
+        #    ]
 
-        [[params.team.members]]
-            img = "2.jpg"
-            name = "Larry Parker"
-            position = "Lead Marketer"
-            social = [
-                ["fa-twitter", "#"],
-                ["fa-facebook", "#"],
-                ["fa-linkedin", "#"]
-            ]
+        #[[params.team.members]]
+        #    img = "2.jpg"
+        #    name = "Larry Parker"
+        #    position = "Lead Marketer"
+        #    social = [
+        #        ["fa-twitter", "#"],
+        #        ["fa-facebook", "#"],
+        #        ["fa-linkedin", "#"]
+        #    ]
 
-        [[params.team.members]]
-            img = "3.jpg"
-            name = "Diana Pertersen"
-            position = "Lead Developer"
-            social = [
-                ["fa-twitter", "#"],
-                ["fa-facebook", "#"],
-                ["fa-linkedin", "#"]
-            ]
-
-    # Client section
-    [params.clients_list]
-        enable = true
-
-        # All the clients' logos are stored under 'static/img/logos'.
-        # Replace them with your clients's logos.
-        [[params.clients]]
-            logo = "envato.jpg"
-            link = "#"
-
-        [[params.clients]]
-            logo = "designmodo.jpg"
-            link = "#"
-
-        [[params.clients]]
-            logo = "themeforest.jpg"
-            link = "#"
-
-        [[params.clients]]
-            logo = "creative-market.jpg"
-            link = "#"
+        #[[params.team.members]]
+        #    img = "3.jpg"
+        #    name = "Diana Pertersen"
+        #    position = "Lead Developer"
+        #    social = [
+        #        ["fa-twitter", "#"],
+        #        ["fa-facebook", "#"],
+        #        ["fa-linkedin", "#"]
+        #    ]
 
 
     # Contact section
     [params.contact]
         enable = true
-        title = "Contact us"
-        subtitle  = "Lorem ipsum dolor sit amet consectetur."
+        title = "Contact Big Bear"
+        subtitle  = "Don't hesitate to reach out!"
         buttonText = "Send message"
 
         # 'warning' defines error messages for invalid inputs
@@ -237,24 +242,24 @@ googleAnalytics = ""
     # Footer section
     [params.footer]
         enable = true
-        copyright = "Published under the Apache License 2.0."
+        copyright = "Copyright, Big Bear Industries - 2016"
 
         [[params.footer.social]]
             icon = "fa-twitter"
-            link = "#"
+            link = "https://twitter.com/ikeellis"
 
-        [[params.footer.social]]
-            icon = "fa-facebook"
-            link = "#"
+        #[[params.footer.social]]
+        #    icon = "fa-facebook"
+        #    link = "#"
 
         [[params.footer.social]]
             icon = "fa-linkedin"
-            link = "#"
+            link = "https://www.linkedin.com/in/ike-ellis-56a90a"
 
-        [[params.footer.quicklinks]]
-            text = "Privacy Policy"
-            link = "#"
+        [[params.footer.social]]
+            icon = "fa-medium"
+            link = "https://medium.com/@ikeellis"
 
-        [[params.footer.quicklinks]]
-            text = "Terms of Use"
-            link = "#"
+        #[[params.footer.quicklinks]]
+        #    text = "Terms of Use"
+        #    link = "#"
