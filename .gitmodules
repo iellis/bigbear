@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:iellis/iellis.github.io
+	branch = master
